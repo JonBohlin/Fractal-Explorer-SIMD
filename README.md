@@ -6,6 +6,9 @@ This was very much inspired by the excellent video on C++ intrinsics for the Man
 
 To compile (requires Java 17 - has not been tested on Java 16):
 javac --add-modules jdk.incubator.vector Explorer.java FractalExplorer.java JuliaFractalJPanel.java MandelbrotFractalJPanel.java
+
+Run:
+
 java --add-modules jdk.incubator.vector FractalExplorer
 
 In IntelliJ IDEA go first to Run (menu), choose Run and Edit Configurations, navigate to "Modify options", then click "Add VM options" and add --add-modules jdk.incubator.vector
