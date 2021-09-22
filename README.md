@@ -5,6 +5,7 @@ Exactly the same as Fractal-Explorer on the outside with some major enhancements
 This was very much inspired by the excellent video on C++ intrinsics for the Mandelbrot fractal by javidx9: https://youtu.be/x9Scb5Mku1g
 
 To compile (requires Java 17 - has not been tested on Java 16):
+
 javac --add-modules jdk.incubator.vector Explorer.java FractalExplorer.java JuliaFractalJPanel.java MandelbrotFractalJPanel.java
 
 Run:
